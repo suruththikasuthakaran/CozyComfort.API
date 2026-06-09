@@ -1,4 +1,4 @@
-﻿using CozyComfort.API.Models;
+using CozyComfort.API.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 
@@ -16,5 +16,7 @@ namespace CozyComfort.API.Data
         public DbSet<Distributor> Distributors { get; set; }
 
         public DbSet<Blanket> Blankets { get; set; }
+
+        public DbSet<Order> Orders { get; set; }
     }
 }
